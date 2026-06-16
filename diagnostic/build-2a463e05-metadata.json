@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-06-16T15:42:42.017399+00:00",
+  "commit": "2a463e05",
+  "diagnostic_logd": "diagnostic\\build-2a463e05.logd",
+  "chunked": false,
+  "chunk_size_bytes": null,
+  "password": "908dfb138961ac2e9961",
+  "decrypt_command": "encryptly unpack diagnostic\\build-2a463e05.logd <outdir> --password 908dfb138961ac2e9961",
+  "total_modules": 4,
+  "passed": 0,
+  "failed": 4,
+  "modules": [
+    {
+      "name": "v2-market-stream",
+      "status": "FAIL",
+      "elapsed_seconds": 0,
+      "artifact": null
+    },
+    {
+      "name": "nfc-scanner",
+      "status": "FAIL",
+      "elapsed_seconds": 0,
+      "artifact": null
+    },
+    {
+      "name": "openapi-haskell",
+      "status": "FAIL",
+      "elapsed_seconds": 0,
+      "artifact": null
+    },
+    {
+      "name": "openapi-tools",
+      "status": "FAIL",
+      "elapsed_seconds": 0,
+      "artifact": null
+    }
+  ],
+  "pr_note": "Include this metadata and diagnostic\\build-2a463e05.logd in your PR. Maintainers may ask you to remove these diagnostic artifacts before merging."
+}
